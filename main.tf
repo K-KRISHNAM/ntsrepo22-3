@@ -10,6 +10,7 @@ resource "aws_vpc" "dep3-nts22" {
     cidr_block = "192.16.0.0/16"
     tags = {
       "Name" = var.var_name
+       "Descritption" = testVpc
       
     }
     
